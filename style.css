@@ -1,0 +1,438 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #03057d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo img {
+    max-height: 70px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Arrange menu horizontally on the top right */
+nav {
+    justify-content: flex-end;
+    background-color: #f39523;
+}
+
+/* Custom dropdown styles */
+.custom-dropdown {
+    position: relative;
+}
+
+.custom-dropbtn {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.custom-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Donate button */
+.donate-button {
+    background-color: #f39523;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* First section styles */
+.first-section {
+    display: flex;
+    padding: 2rem;
+}
+
+.column {
+    flex: 1;
+    padding: 1rem;
+}
+
+.column iframe {
+    width: 100%;
+    border: none;
+}
+
+.column h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.column p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.learn-more-button {
+    background-color: #03057d;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover {
+    background-color: #f39523;
+}
+
+/* Other elements using primary and secondary colors */
+main {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+footer {
+    background-color: #f39523;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Impact section styles */
+.impact-section {
+    background-color: #f9f9f9;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.impact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.impact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.impact-item {
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.impact-item:hover {
+    transform: scale(1.05);
+}
+
+.impact-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.impact-item p {
+    font-size: 1rem;
+}
+/* ... Other styles above ... */
+
+/* Other impact section styles */
+.other-impact-section {
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* ... Other styles above ... */
+
+/* Other impact section styles */
+.other-impact-section {
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+/* ... Other styles above ... */
+
+/* ... Other styles above ... */
+
+/* Style the section container */
+/* Rest of your CSS styles */
+
+/* Add animation properties */
+.other-impact-section {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add hover effect to the section */
+.other-impact-section:hover {
+    transform: scale(1.02); /* Scale the section slightly on hover */
+}
+
+/* Rest of your CSS styles */
+
+.other-impact-section {
+    display: flex;
+    flex-direction: column; /* Stack columns vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+/* Style the section title */
+.section-title h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the left column */
+.left-column {
+    text-align: center; /* Center text in the left column */
+    padding: 20px;
+}
+
+/* Style the paragraph */
+.left-column p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style the right column */
+.right-column {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the video link */
+.video-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #03057d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.video-link:hover {
+    background-color: #f39523;
+}
+.new-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+.left-column {
+    flex: 1;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-column iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.investment-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #03057d; /* Primary color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.investment-button:hover {
+    background-color: #001a51; /* Slightly darker shade for hover */
+}
+
+.right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.volunteer-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f39523; /* Secondary color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.volunteer-button:hover {
+    background-color: #d17d0b; /* Slightly darker shade for hover */
+}
+/* Your existing styles */
+
+.footer-section {
+    background-color: #03057d; /* Footer background color */
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between; /* Arrange widgets in four columns */
+    text-align: center;
+}
+
+.widget {
+    flex: 1;
+    padding: 10px;
+}
+
+.widget h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.widget p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget ul li {
+    margin-bottom: 5px;
+}
+
+.widget a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff; /* Button background color */
+    color: #03057d; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.widget a.button:hover {
+    background-color: #03057d; /* Button background color on hover */
+    color: #fff; /* Button text color on hover */
+}
+/* Your existing styles */
+/* Your existing styles */
+
+.footer-section {
+    background-color: #03057d; /* Footer background color */
+    padding: 40px 0;
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    text-align: left;
+    flex-wrap: wrap; /* Allow widgets to wrap on smaller screens */
+}
+
+.widget {
+    flex: 1;
+    padding: 10px;
+    margin-right: 20px; /* Add some spacing between widgets */
+}
+
+.widget h3 {
+    color: #f39523; /* Widget title color */
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Rest of your CSS styles */
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Your existing styles */
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Your existing styles */
+
+
+/* Your existing styles */
+
