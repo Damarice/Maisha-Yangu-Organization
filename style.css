@@ -19,7 +19,7 @@ header {
 }
 
 .logo img {
-    max-height: 70px;
+    max-height: 150px;
 }
 
 nav {
@@ -38,11 +38,11 @@ header {
 }
 
 .logo {
-    margin-right: 40px; /* Adjust this margin to move the logo */
+    margin-right: 300px; /* Adjust this margin to move the logo */
 }
 
 .logo img {
-    max-height: 70px;
+    max-height: 150px;
 }
 
 nav {
@@ -73,6 +73,13 @@ nav a:hover {
     text-decoration: none;
     border-radius: 4px;
 }
+
+.main-container {
+    width: 100%;        /* Set the width to 75% of the viewport */
+    margin: 0 auto;    /* Center the container horizontally */
+    overflow: hidden;  /* Ensure any floating children are contained within the container */
+}
+
 
 /* First section styles */
 .first-section {
@@ -133,7 +140,9 @@ nav a:hover {
 .impact-section h4 {
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    font-weight: normal;  /* Makes the font appear normal, not bold */
 }
+
 
 .impact-container {
     display: flex;
@@ -146,7 +155,7 @@ nav a:hover {
     margin: 1rem;
     padding: 1rem;
     text-align: center;
-    background-color: #fff;
+    background-color: transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
@@ -165,6 +174,13 @@ nav a:hover {
 .impact-item p {
     font-size: 1rem;
 }
+.impact-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;  /* Makes the images circular */
+    margin-bottom: 0.5rem;
+}
+
 
 .explore-button {
     display: inline-block;
@@ -192,6 +208,9 @@ nav a:hover {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+h3 {
+    color: white;
+}
 
 .partners-container {
     display: flex;
@@ -205,7 +224,7 @@ nav a:hover {
     margin: 10px;
     padding: 1rem;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #03057d;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     overflow: hidden;
@@ -235,6 +254,9 @@ nav a:hover {
 .programs-section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+}
+.programs-section h4 {
+    font-weight: normal;
 }
 
 .programs-container {
@@ -381,20 +403,19 @@ nav a:hover {
 .story-content p a {
     margin-left: 1rem; /* Add spacing between paragraph and button */
 }
-
 .story-image {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end; /* Aligns children (the image) to the far right */
 }
 
 .story-image img {
-    max-width: 100%;
+    width: 75%;
     height: auto;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+
 
 .read-more-button {
     background-color: #03057d;
