@@ -594,3 +594,59 @@ h3 {
         padding: 15px;
     }
 }
+ 
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        max-height: 60px;
+        margin-bottom: 1rem;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    nav a {
+        margin: 0.5rem 0;
+    }
+
+    .first-section, .impact-section, .partners-section, .programs-section, .animated-columns-section, .success-stories-section {
+        padding: 1rem;
+    }
+
+    .section h2, .section h4 {
+        font-size: 1.5rem;
+    }
+
+    .impact-item, .partner-item, .program, .animated-column, .success-story {
+        flex: 0 0 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .impact-item img, .partner-item img, .animated-column img, .success-story img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .widget {
+        flex: 0 0 100%;
+        margin: 10px 0;
+    }
+
+    .subscription-form input[type="email"] {
+        width: 100%;
+    }
+}
