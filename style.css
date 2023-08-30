@@ -596,7 +596,7 @@ h3 {
 }
  
 /* Mobile responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     header {
         flex-direction: column;
         align-items: center;
